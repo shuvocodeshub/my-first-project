@@ -49,3 +49,105 @@
     cursor: pointer;
 
 }
+/* hero-section start */
+
+.hero-section{
+    background-image: url(../assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    gap: 20px;
+    color: #FFFFFF;
+
+
+}
+
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+}
+.hero-section .hero-container .label{
+    color: #469165;
+    width: 229px;
+    height: 35px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    display: inline-block;
+    align-items: center;
+    gap: 10px;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+
+}
+.hero-text h1{
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 18px;
+
+ }
+ .hero-text .color-green{
+    color: #469165;
+
+ }
+.hero-text p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    max-width: 700px;
+ }
+ .hero-btn{
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .hero-btn button{
+    padding: 16.5px 16px 16.5px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1x solid transparent;
+ }
+
+ .hero-btn .first-btn{
+    background-color:#469165 ;
+    color: #FFFFFF;
+ }
+ .hero-btn .first-btn:hover{
+    background-color: #2cd171;
+    color: #ffffff;
+ }
+.hero-btn .second-btn{
+
+     background-color: transparent;
+     border: 3px solid #FFFFFF;
+     color: #FFFFFF;
+}
+.hero-btn .second-btn:hover{
+    background-color: #25302c;
+    color: #ffffff;
