@@ -27,7 +27,6 @@
     list-style: none;
     width: 365px;
     height: 24px;
-    /* margin-top: 34px ; */
     font-size: 16px;
     font-weight: 500;
     justify-content: space-between;
@@ -49,6 +48,13 @@
     cursor: pointer;
 
 }
+.nav-btn .btn:hover{
+    background-color: #2cd171;
+    color: #ffffff;
+}
+
+/* navigation section end here */
+
 /* hero-section start */
 
 .hero-section{
@@ -151,3 +157,82 @@
 .hero-btn .second-btn:hover{
     background-color: #25302c;
     color: #ffffff;
+}
+
+/* hero section end here */
+
+/* Notes cards start here */
+
+.notes{
+    margin-top: 120px;
+    padding: 0 20px;
+}
+
+.notes-contain{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 45px auto;
+}
+.notes-contain h1{
+    font-size: 48px;
+    font-weight: 700;
+    align-items: center;
+}
+.notes-contain p{
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 16px;
+    font-weight:400 ;
+}
+.cards-container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 270px;
+    height: 290px;
+    padding: 40px 24px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0,0.06) ;
+    background: #FFFFFF;
+    border: 1.5px solid #eee;
+    text-align: center;
+}
+
+.icons-box{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    display: flex;
+    margin: 13px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px auto;
+}
+
+.icons-box img{
+    width: 32px;
+    height: 32px;
+}
+.card h3{
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+
+/* notes end here */
+
